@@ -1,0 +1,52 @@
+/* 1. Basic background and centering */
+body {
+    /* Replace 'sunset.jpg' with your actual image file name */
+    background: url('sunset.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* 2. The Dark Box (The Form) */
+form {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent box */
+    padding: 30px;
+    border-radius: 5px;
+    color: white; /* Makes all text inside white */
+    width: 300px;
+}
+
+/* 3. The Login Heading */
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* 4. The Input Lines */
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    background: transparent; /* No background color */
+    border: none;
+    border-bottom: 1px solid white; /* Only a bottom line */
+    color: white;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    outline: none; /* Removes the blue box when clicking */
+}
+
+/* 5. The Blue Submit Button */
+input[type="submit"] {
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
